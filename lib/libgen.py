@@ -15,7 +15,6 @@ class Book:
         self.extension = extension
         self.links = links
 
-    # uses first mirror to download
     def download(self, path: str, callback: Callable[[str, float], any]):
         mirrorLink = self.links[0]
         req = requests.get(mirrorLink)
