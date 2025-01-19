@@ -37,6 +37,6 @@ print(book.extension)
 # Print the book's links
 print(book.links)
 
-# Downloads the book and saves it to 'CookingBook.pdf'
+# Download the book and save it to 'CookingBook.pdf'
 book.download('CookingBook.pdf', onDownload)
 ```
