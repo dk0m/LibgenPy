@@ -6,7 +6,8 @@ A Synchronous Library For Interacting With Library Genesis.
 
 ```python
 def onDownload(path: str, timeToDownload: float):
-    print(path, timeToDownload)
+    print(f'Saved To {path}')
+    print(f'Time To Download: {timeToDownload:.2f}s')
 
 libgen = Libgen()
 
