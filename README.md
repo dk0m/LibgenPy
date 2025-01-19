@@ -38,6 +38,6 @@ print(book.extension)
 # Print the book's links
 print(book.links)
 
-# Download the book and save it to 'CookingBook.pdf'
+# Download the book and save it to 'CookingBook.pdf', Call 'onDownload' once it has finished downloading.
 book.download('CookingBook.pdf', onDownload)
 ```
