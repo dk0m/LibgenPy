@@ -35,8 +35,6 @@ class Book:
                 for chunk in bookDataStream.iter_content(chunk_size = 1024): 
                     outputFile.write(chunk)
 
-            outputFile.close()
-
         if (callback):
             callback(abspath(path), (time.time() - startTime))
         
